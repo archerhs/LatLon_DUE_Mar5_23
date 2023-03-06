@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      body {
+        background-color: rgb(255, 255, 204);
+      }
+  </style>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
+
+    <h1>Weather API Results</h1>
+
+    <form action="/" method="post">
+      <label for="latInput">Latitude: </label>
+      <input id="latInput" type="text" name="latInput">
+
+      <label for="lonInput">Longitude: </label>
+      <input id="lonInput" type="text" name="lonInput">
+
+      <button type="submit">Enter</button>
+    </form>
+
+    <div id="weather-info"></div>
